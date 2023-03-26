@@ -66,6 +66,7 @@ class Calculadora {
                 Console.Write("n¿Desea Continuar? s/n: "); 
                 resp = Console.ReadLine();
             }
+            //La condicional para que se repita el proceso en caso de que se desee continuar con las operaciones
             while (resp == "s" || resp == "s");
         }
 
