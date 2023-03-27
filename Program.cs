@@ -63,7 +63,7 @@ class Calculadora {
                         break;
                 }
                 //Se vuelve a preguntar en caso de que se desee continuar o no 
-                Console.Write("n¿Desea Continuar? s/n: "); 
+                Console.Write("¿Desea Continuar? s/n: "); 
                 resp = Console.ReadLine();
             }
             //La condicional para que se repita el proceso en caso de que se desee continuar con las operaciones
